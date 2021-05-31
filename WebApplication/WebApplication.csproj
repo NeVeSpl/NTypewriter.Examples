@@ -38,6 +38,18 @@
     <None Update="Examples\CreateYourFirstTemplate\tst\WeatherForecastModel.ts">
       <CustomToolNamespace>Models\WeatherForecastModel.cs</CustomToolNamespace>
     </None>
+    <None Update="Examples\Extensions\nt\Extensions.nt">
+      <CustomToolNamespace>15ab707b-7398-4685-ae6f-29269a98fe23</CustomToolNamespace>
+    </None>
+    <None Update="Examples\Extensions\nt\WeatherForecastController.ts">
+      <CustomToolNamespace>15ab707b-7398-4685-ae6f-29269a98fe23</CustomToolNamespace>
+    </None>
+    <None Update="Examples\Extensions\tst\CustomerController.ts">
+      <CustomToolNamespace>Controllers\CustomerController.cs</CustomToolNamespace>
+    </None>
+    <None Update="Examples\Extensions\tst\WeatherForecastController.ts">
+      <CustomToolNamespace>Controllers\WeatherForecastController.cs</CustomToolNamespace>
+    </None>
   </ItemGroup>
 
 </Project>
