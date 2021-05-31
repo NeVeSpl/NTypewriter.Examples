@@ -23,6 +23,9 @@
     <None Update="Examples\CreateYourFirstTemplate\nt\CustomerModel.ts">
       <CustomToolNamespace>da2fca1f-65d1-4b47-b69e-aadf3994dc00</CustomToolNamespace>
     </None>
+    <None Update="Examples\CreateYourFirstTemplate\nt\GenericModel.ts">
+      <CustomToolNamespace>da2fca1f-65d1-4b47-b69e-aadf3994dc00</CustomToolNamespace>
+    </None>
     <None Update="Examples\CreateYourFirstTemplate\nt\OrderModel.ts">
       <CustomToolNamespace>da2fca1f-65d1-4b47-b69e-aadf3994dc00</CustomToolNamespace>
     </None>
@@ -32,11 +35,17 @@
     <None Update="Examples\CreateYourFirstTemplate\tst\CustomerModel.ts">
       <CustomToolNamespace>Models\CustomerModel.cs</CustomToolNamespace>
     </None>
+    <None Update="Examples\CreateYourFirstTemplate\tst\GenericModel.ts">
+      <CustomToolNamespace>Models\GenericModel.cs</CustomToolNamespace>
+    </None>
     <None Update="Examples\CreateYourFirstTemplate\tst\OrderModel.ts">
       <CustomToolNamespace>Models\OrderModel.cs</CustomToolNamespace>
     </None>
     <None Update="Examples\CreateYourFirstTemplate\tst\WeatherForecastModel.ts">
       <CustomToolNamespace>Models\WeatherForecastModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="Examples\Extensions\nt\CustomerController.ts">
+      <CustomToolNamespace>15ab707b-7398-4685-ae6f-29269a98fe23</CustomToolNamespace>
     </None>
     <None Update="Examples\Extensions\nt\Extensions.nt">
       <CustomToolNamespace>15ab707b-7398-4685-ae6f-29269a98fe23</CustomToolNamespace>
@@ -49,6 +58,33 @@
     </None>
     <None Update="Examples\Extensions\tst\WeatherForecastController.ts">
       <CustomToolNamespace>Controllers\WeatherForecastController.cs</CustomToolNamespace>
+    </None>
+    <None Update="Examples\ModelInterfaces\nt\CustomerModel.ts">
+      <CustomToolNamespace>9eb61a2e-3d8f-44c6-979a-f0c0806b8ee7</CustomToolNamespace>
+    </None>
+    <None Update="Examples\ModelInterfaces\nt\GenericModel.ts">
+      <CustomToolNamespace>9eb61a2e-3d8f-44c6-979a-f0c0806b8ee7</CustomToolNamespace>
+    </None>
+    <None Update="Examples\ModelInterfaces\nt\ModelInterfaces.nt">
+      <CustomToolNamespace>9eb61a2e-3d8f-44c6-979a-f0c0806b8ee7</CustomToolNamespace>
+    </None>
+    <None Update="Examples\ModelInterfaces\nt\OrderModel.ts">
+      <CustomToolNamespace>9eb61a2e-3d8f-44c6-979a-f0c0806b8ee7</CustomToolNamespace>
+    </None>
+    <None Update="Examples\ModelInterfaces\nt\WeatherForecastModel.ts">
+      <CustomToolNamespace>9eb61a2e-3d8f-44c6-979a-f0c0806b8ee7</CustomToolNamespace>
+    </None>
+    <None Update="Examples\ModelInterfaces\tst\CustomerModel.ts">
+      <CustomToolNamespace>Models\CustomerModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="Examples\ModelInterfaces\tst\GenericModel.ts">
+      <CustomToolNamespace>Models\GenericModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="Examples\ModelInterfaces\tst\OrderModel.ts">
+      <CustomToolNamespace>Models\OrderModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="Examples\ModelInterfaces\tst\WeatherForecastModel.ts">
+      <CustomToolNamespace>Models\WeatherForecastModel.cs</CustomToolNamespace>
     </None>
   </ItemGroup>
 

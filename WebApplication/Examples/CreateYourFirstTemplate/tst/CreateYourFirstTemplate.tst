@@ -1,5 +1,5 @@
 ﻿module App { $Classes(*Model)[
-    export class $Name { $Properties[
+    export class $Name {$Properties[
         public $name: $Type;]
     }]
 }

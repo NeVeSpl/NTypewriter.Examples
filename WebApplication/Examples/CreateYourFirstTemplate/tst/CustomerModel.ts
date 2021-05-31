@@ -1,5 +1,5 @@
 ﻿module App { 
-    export class CustomerModel { 
+    export class CustomerModel {
         public id: number;
         public name: string;
         public orders: OrderModel[];

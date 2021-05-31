@@ -1,4 +1,4 @@
 ﻿module App { 
-    export class OrderModel { 
+    export class OrderModel {
     }
 }
