@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CreateYourFirstTemplate.tst" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Examples\CreateYourFirstTemplate\tst\CreateYourFirstTemplate.tst" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Examples\CreateYourFirstTemplate\nt\CreateYourFirstTemplate.nt">
+      <CustomToolNamespace>da2fca1f-65d1-4b47-b69e-aadf3994dc00</CustomToolNamespace>
+    </None>
+    <None Update="Examples\CreateYourFirstTemplate\nt\CustomerModel.ts">
+      <CustomToolNamespace>da2fca1f-65d1-4b47-b69e-aadf3994dc00</CustomToolNamespace>
+    </None>
+    <None Update="Examples\CreateYourFirstTemplate\nt\OrderModel.ts">
+      <CustomToolNamespace>da2fca1f-65d1-4b47-b69e-aadf3994dc00</CustomToolNamespace>
+    </None>
+    <None Update="Examples\CreateYourFirstTemplate\nt\WeatherForecastModel.ts">
+      <CustomToolNamespace>da2fca1f-65d1-4b47-b69e-aadf3994dc00</CustomToolNamespace>
+    </None>
+    <None Update="Examples\CreateYourFirstTemplate\tst\CustomerModel.ts">
+      <CustomToolNamespace>Models\CustomerModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="Examples\CreateYourFirstTemplate\tst\OrderModel.ts">
+      <CustomToolNamespace>Models\OrderModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="Examples\CreateYourFirstTemplate\tst\WeatherForecastModel.ts">
+      <CustomToolNamespace>Models\WeatherForecastModel.cs</CustomToolNamespace>
+    </None>
+  </ItemGroup>
+
+</Project>
