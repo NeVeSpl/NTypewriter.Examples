@@ -7,5 +7,6 @@ namespace WebApplication.Models
 {
     public class OrderModel
     {
+        public DateTime Date { get; set; }
     }
 }
