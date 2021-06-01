@@ -17,6 +17,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Examples\AngularWebAPIService\nt\AngularWebAPIService.nt">
+      <CustomToolNamespace>5ef95672-d2b1-4e27-b394-1e327f04a2e0</CustomToolNamespace>
+    </None>
+    <None Update="Examples\AngularWebAPIService\nt\CustomerController.ts">
+      <CustomToolNamespace>5ef95672-d2b1-4e27-b394-1e327f04a2e0</CustomToolNamespace>
+    </None>
+    <None Update="Examples\AngularWebAPIService\nt\WeatherForecastController.ts">
+      <CustomToolNamespace>5ef95672-d2b1-4e27-b394-1e327f04a2e0</CustomToolNamespace>
+    </None>
+    <None Update="Examples\AngularWebAPIService\tst\CustomerController.ts">
+      <CustomToolNamespace>Controllers\CustomerController.cs</CustomToolNamespace>
+    </None>
+    <None Update="Examples\AngularWebAPIService\tst\WeatherForecastController.ts">
+      <CustomToolNamespace>Controllers\WeatherForecastController.cs</CustomToolNamespace>
+    </None>
     <None Update="Examples\CreateYourFirstTemplate\nt\CreateYourFirstTemplate.nt">
       <CustomToolNamespace>da2fca1f-65d1-4b47-b69e-aadf3994dc00</CustomToolNamespace>
     </None>
